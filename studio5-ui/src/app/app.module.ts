@@ -15,6 +15,7 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { AboutComponent } from './about/about.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,6 +33,7 @@ import { AboutComponent } from './about/about.component';
     MatToolbarModule,
     MatIconModule,
     MatButtonModule
+ 
   ],
   providers: [],
   bootstrap: [AppComponent]
