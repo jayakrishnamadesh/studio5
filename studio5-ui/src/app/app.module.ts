@@ -13,6 +13,10 @@ import { ServicesComponent } from './services/services.component';
 import { BookComponent } from './book/book.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { AboutComponent } from './about/about.component';
+import { NgbCarouselModule, NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { CarouselComponent } from './carousel/carousel.component';
+import { CardsComponent } from './cards/cards.component';
+
 
 
 
@@ -24,7 +28,9 @@ import { AboutComponent } from './about/about.component';
     ServicesComponent,
     BookComponent,
     ContactUsComponent,
-    AboutComponent
+    AboutComponent,
+    CarouselComponent,
+    CardsComponent
   ],
   imports: [
     BrowserModule,
@@ -32,7 +38,9 @@ import { AboutComponent } from './about/about.component';
     BrowserAnimationsModule,
     MatToolbarModule,
     MatIconModule,
-    MatButtonModule
+    MatButtonModule,
+    NgbModule,
+    NgbCarouselModule
  
   ],
   providers: [],

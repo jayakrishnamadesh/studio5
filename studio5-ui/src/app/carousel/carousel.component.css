@@ -1,0 +1,12 @@
+img {
+    width: 100vw;
+    height: 90vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-wrapper{
+   overflow:hidden;
+   position: relative;
+  
+}
